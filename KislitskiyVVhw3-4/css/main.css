@@ -1,0 +1,84 @@
+body {
+  background-color: #aaa;
+  background-color: #c5d9e1;
+  background-image: url(../img/body.jpg);
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: large;
+}
+.paragraph {
+  overflow: auto;
+  outline: 1px solid black;
+  width: 80%;
+  margin: 150px auto;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-image: url(../img/Gr.jpg);
+}
+.Video {
+  width: 45%;
+  padding: 1%;
+  margin: 25px auto;
+}
+.Cit {
+  width: 45%;
+  padding: 1%;
+  margin: 25px auto;
+}
+
+.list li a:hover {
+  font-style: italic;
+  color: darkturquoise;
+  text-align: left;
+}
+.list li {
+  list-style-type: none;
+}
+
+.AllText {
+  color: rgb(0, 0, 0);
+  width: 1000px;
+  margin: 50px auto;
+  text-decoration: blanchedalmond;
+  font-weight: 900;
+  background-image: linear-gradient(
+    to top,
+    rgba(30, 87, 153, 0),
+    rgba(30, 87, 153, 0.5),
+    rgba(30, 87, 153, 0.5),
+    rgba(30, 87, 153, 1),
+    rgba(41, 137, 216, 1),
+    rgba(30, 87, 153, 1),
+    rgba(30, 87, 153, 0.5),
+    rgba(30, 87, 153, 0.5),
+    rgba(30, 87, 153, 0)
+  );
+  text-align: center;
+}
+
+.AllText .Img1 {
+  border-radius: 100px; /* Радиус скругления */
+}
+
+.link {
+  text-align: center;
+  margin-bottom: 100px;
+  width: 100%;
+  border-radius: 55px;
+  background: linear-gradient(#bdf, #def, #7ac);
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 100px;
+  border-radius: 55px;
+  background: skyblue linear-gradient(90deg, white 30%, transparent 60%);
+}
+.footer ul li {
+  display: inline;
+  padding: 15px;
+  color: #fff;
+}
